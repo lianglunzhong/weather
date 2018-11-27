@@ -1,0 +1,26 @@
+{
+    "name": "lianglunzhong/weather",
+    "description": "A weather SDK.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lianglunzhong",
+            "email": ""
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lianglunzhong\\Weather\\": "./src"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lianglunzhong\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}
